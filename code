@@ -1,0 +1,22 @@
+int main() {
+int n;
+int x,y;
+int a[100];
+scanf("%d",&n);
+for (int i=0;i<n;i++)
+{
+    scanf("%d",&a[i]);
+}
+printf("enter x and y");
+scanf("%d %d",&x,&y);
+for (int i=0;i<n;i++)
+{
+    if(x<a[i]&&a[i]<y)
+    {
+        printf("result %d",a[i]);
+        printf("\n");
+    }
+}
+   
+    return 0;
+}
